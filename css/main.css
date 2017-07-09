@@ -1,0 +1,56 @@
+html, body
+{
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color: #111;
+}
+.sideBar
+{
+	position: fixed;
+	left: -170px;
+	height: 100%;
+	background-color: #333;
+	width: 200px;
+	border-right: 4px solid #000;
+}
+.imagePlace
+{
+	position: fixed;
+	left:60px;
+	height: 100%;
+	width: 1000px;
+}
+.viewModeButtonList
+{
+	padding-top: 30px;
+	padding-right: 10px;
+}
+.viewModeButton
+{
+	background-color: #555;
+	border: 2px solid #000;
+	border-radius: 10%;
+	color: #aaa;
+	cursor: pointer;
+}
+.settingBox
+{
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-left: 50px;
+}
+.settings
+{
+	padding: 5px;
+	display:none;
+	border: 2px solid #000;
+	border-radius: 10%;
+	background-color: #555;
+	color: #aaa;
+}
+#myCarousel,#myGridEq,#myEditBox {display: none;}
+.equals,.editBox
+{
+	height:200px;
+	width: 300px;
+	border: 2px solid #ccc;
+}
